@@ -1,0 +1,32 @@
+
+.carousel-inner{
+
+    max-height: 600px;
+    border-image-width: auto;
+}
+.formulario {
+    max-width: 600px; /* Establece el ancho máximo que quieres que tenga el formulario */
+    margin: auto; /* Esto centrará el formulario horizontalmente en la página */
+    padding: 20px;
+    margin-top: 20px; /* Añade espacio en blanco arriba del bloque de cartas */
+    margin-bottom: 20px;
+}
+.formulario h1{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-around; /* Centra horizontalmente las tarjetas con espacios equitativos entre ellas */
+    gap: 10px; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Para que las tarjetas se envuelvan en filas si no caben en una sola línea */
+  }
+  
+  .card {
+    flex: 0 0 calc(25% - 10px); /* Ajusta el ancho de las tarjetas para que ocupen un 25% del contenedor con un espacio de 10px entre ellas */
+    min-width: 18rem;
+    margin-top: 20px; /* Añade espacio en blanco arriba del bloque de cartas */
+    margin-bottom: 20px;
+  }
